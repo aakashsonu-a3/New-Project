@@ -78,8 +78,8 @@ class MyHomePage extends StatelessWidget {
         ],
         );
     return Scaffold(
-      body: InkWell(
-        onTap: () {
+      body: ElevatedButton(
+        onPressed: () {
           Navigator.push(context,
                 MaterialPageRoute(builder: (context) => DashboardPage()),
               );

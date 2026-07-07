@@ -18,7 +18,8 @@ class _DashboardPageState extends State<DashboardPage> {
           clipper: BackgroundClipper(),
           child: InkWell(
             onTap: () {
-              Navigator.push(context,
+              Navigator.push(
+                context,
                 MaterialPageRoute(builder: (context) => DetailPage()),
               );
               // Handle tap event
